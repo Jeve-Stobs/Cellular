@@ -1,0 +1,73 @@
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: #356175;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+div#game, canvas {
+  background-image: url("images/p2_@2X.png");
+  width: 512px;
+  height: 480px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-left: 400px;
+}
+
+div.container {
+  padding: 25px;
+}
+
+div#instructions {
+  float: right;
+  width: 300px;
+  padding-right: 150px;
+}
+
+.footer {
+  margin-top: 520px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: neon;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 0.8em;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: white;
+    text-align: right;
+}
+
+button#playbutton {
+  display: block;
+  background: #356175;
+  width: 40%;
+  height: 250%;
+  margin: auto;
+
+  /* Text */
+  font-size: 2em;
+  color: white;
+  font-family: neon;
+}
